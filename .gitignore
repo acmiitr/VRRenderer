@@ -1,0 +1,8 @@
+.idea
+build
+cmake-build-debug
+src/CMakeFiles/
+src/Makefile
+src/render
+src/cmake_install.cmake
+src/CMakeCache.txt

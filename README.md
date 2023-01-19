@@ -1,9 +1,10 @@
 ## Run
+Must have [cmake](https://cmake.org/) >= 3.10
 
-- cd into `src`
-- install cmake
-```
-cmake ..
-make
-./render
+```bash
+$ git clone --recursive https://github.com/acmiitr/VRRenderer.git
+$ cmake -S . -B ./build
+$ cd ./build
+$ cmake --build .
+$ ./VRR
 ```

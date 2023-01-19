@@ -1,4 +1,4 @@
-#include "../headers/Mesh.h"
+#include <VRRenderer/Mesh.h>
 
 const int width = 1920;
 const int height = 1080;
@@ -69,7 +69,7 @@ int main(){
     // Texture -------------------------------------------------------------------------
     Texture textures[]
             {
-                    Texture("../resources/Textures/meme_cat.png", "diffuse", 0, GL_RGBA, GL_UNSIGNED_BYTE)
+                Texture("../resources/Textures/meme_cat.png", "diffuse", 0, GL_RGBA, GL_UNSIGNED_BYTE)
             };
 
     //----------------------------------------------------------------------------------
